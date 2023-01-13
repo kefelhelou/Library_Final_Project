@@ -14,3 +14,9 @@ class BookModel:
         self.__description = description
         self.__author = author
         self.__status = status
+
+    def set_id(self, id):
+        self.__id = id
+
+    def get_id(self):
+        return self.__id

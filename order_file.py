@@ -14,3 +14,10 @@ class OrderModel:
         self.__client_id = client_id
         self.__book_id = book_id
         self.__status = status
+
+
+    def set_id(self, id):
+        self.__id = id
+
+    def get_id(self):
+        return self.__id
